@@ -1,0 +1,41 @@
+.text{
+    font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 3%;
+text-align: left;
+}
+.box{
+}
+.title{
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+    text-transform: capitalize;
+    word-wrap: break-word;
+    text-indent: 0cm;
+}
+::selection{
+    background-color: black;
+    color:blue;
+}
+.text{
+    font-size: 24px;
+    width: 78px;
+    height: 48pt;
+}
+.title{
+    text-indent: 0cap;
+    text-shadow: 0cqh;
+    display: inline;
+    vertical-align: middle;
+    white-space: inherit;
+    word-wrap: break-word;
+    text-align: center;
+    text-transform: uppercase;
+}
+::selection{
+    background-color: blue;
+    color: darkblue;
+}
