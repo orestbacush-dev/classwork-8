@@ -1,41 +1,412 @@
-.text{
-    font-family: Raleway;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;   
+}
+.type{
+width: 78px;
+height: 48px;
+padding: 0px;
+border: none;
+border-radius: 2px;
+background-color:white;
+color: blue;
+}
+.styles{
+font-family: Raleway;
+font-style: Bold;
 font-size: 26px;
 font-weight: 700;
 line-height: 31px;
 letter-spacing: 3%;
 text-align: left;
+background-color:white;
+color: blue;
 }
-.box{
-}
-.title{
-    display: inline-block;
-    vertical-align: bottom;
-    text-align: center;
-    text-transform: capitalize;
-    word-wrap: break-word;
-    text-indent: 0cm;
-}
-::selection{
-    background-color: black;
-    color:blue;
-}
-.text{
-    font-size: 24px;
-    width: 78px;
-    height: 48pt;
+.div{
+    font-family: Raleway;
+font-style: Bold;
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 3%;
+text-align: left;
+background-color: white;
+color: black;
 }
 .title{
-    text-indent: 0cap;
-    text-shadow: 0cqh;
-    display: inline;
-    vertical-align: middle;
-    white-space: inherit;
-    word-wrap: break-word;
-    text-align: center;
-    text-transform: uppercase;
+ color: rgba(33, 33, 33, 1);
+
+font-family: Roboto;
+font-style: Medium;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 2%;
+text-align: left;
 }
-::selection{
-    background-color: blue;
-    color: darkblue;
+.title{
+color: rgba(33, 33, 33, 1);
+
+font-family: Roboto;
+font-style: Medium;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 2%;
+text-align: left;
+}
+.ul{
+width: 161px;
+height: 16px;
+background-color: white;
+color:gray ;
+}
+.svg{
+    width: 142px ;
+    height: 16px ;
+    background-color: white;
+    color: gray;
+}
+.twitter{
+width: 73px;
+height: 38px;
+background-color: blue;
+color: white;
+}
+.section{
+width: 125px;
+height: 38px;
+background-color: white;
+color: black;
+}
+.header{
+width: 112px;
+height: 38px;
+background-color: white;
+color: black;
+}
+.main{
+width: 103px;
+height: 38px;
+background-color: white;
+color: black;
+}
+.footer{
+width: 130px;
+height: 38px;
+background-color: white;
+color: black;
+}
+.avatar{
+color: rgba(33, 33, 33, 1);
+
+font-family: Roboto;
+font-style: Bold;
+font-size: 18px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 6%;
+text-align: left;
+}
+.meta{
+    color: rgba(117, 117, 117, 1);
+
+font-family: Roboto;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 3%;
+text-align: left;
+}
+.for{
+    color: rgba(33, 33, 33, 1);
+
+font-family: Roboto;
+font-style: Bold;
+font-size: 18px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 6%;
+text-align: left;
+}
+.overlay{
+    color: rgba(117, 117, 117, 1);
+
+font-family: Roboto;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 3%;
+text-align: left;
+}
+.rel{
+    color: rgba(33, 33, 33, 1);
+
+font-family: Roboto;
+font-style: Bold;
+font-size: 18px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 6%;
+text-align: left;
+}
+.vs{
+    color: rgba(117, 117, 117, 1);
+
+font-family: Roboto;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 3%;
+text-align: left;
+}
+.cell{
+    color: rgba(33, 33, 33, 1);
+
+font-family: Roboto;
+font-style: Bold;
+font-size: 18px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 6%;
+text-align: left;
+}
+.instagram{
+    color: rgba(117, 117, 117, 1);
+
+font-family: Roboto;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 3%;
+text-align: left;
+}
+.label{
+    color: rgba(33, 33, 33, 1);
+
+font-family: Roboto;
+font-style: Bold;
+font-size: 18px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 6%;
+text-align: left;
+}
+.stylesheet{
+    color: rgba(117, 117, 117, 1);
+
+font-family: Roboto;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 3%;
+text-align: left;
+}
+.linkedin{
+    color: rgba(33, 33, 33, 1);
+
+font-family: Roboto;
+font-style: Bold;
+font-size: 18px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 6%;
+text-align: left;
+}
+.initial-scale{
+    color: rgba(117, 117, 117, 1);
+
+font-family: Roboto;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 3%;
+text-align: left;
+}
+.list{
+    color: rgba(33, 33, 33, 1);
+
+font-family: Roboto;
+font-style: Bold;
+font-size: 18px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 6%;
+text-align: left;
+}
+.ul{
+    color: rgba(117, 117, 117, 1);
+
+font-family: Roboto;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 3%;
+text-align: left;
+}
+.link{
+    color: rgba(33, 33, 33, 1);
+
+font-family: Roboto;
+font-style: Bold;
+font-size: 18px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 6%;
+text-align: left;
+}
+.en{
+    color: rgba(117, 117, 117, 1);
+
+font-family: Roboto;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 3%;
+text-align: left;
+}
+.li{
+    color: rgba(33, 33, 33, 1);
+
+font-family: Roboto;
+font-style: Bold;
+font-size: 18px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 6%;
+text-align: left;
+}
+.width{
+    color: rgba(117, 117, 117, 1);
+
+font-family: Roboto;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 3%;
+text-align: left;
+}
+.nav{
+    font-family: Raleway;
+font-style: Bold;
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 3%;
+text-align: left;
+background-color:black;
+color: blue;
+}
+.name{
+    font-family: Raleway;
+font-style: Bold;
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 3%;
+text-align: left;
+background-color: black;
+color: white;
+}
+.html{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Roboto;
+font-style: Regular;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 3%;
+text-align: left;
+background-color: black;
+color: white;
+}
+.has{
+    color: rgba(255, 255, 255, 0.6);
+
+font-family: Roboto;
+font-style: Regular;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 3%;
+text-align: left;
+background-color: black;
+color: gray;
+}
+.head{
+    color: rgba(255, 255, 255, 0.6);
+
+font-family: Roboto;
+font-style: Regular;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 3%;
+text-align: left;
+background-color: black;
+color: gray;
+}
+.device-width{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Roboto;
+font-style: Bold;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 3%;
+text-align: left;
+text-transform: uppercase;
+color: antiquewhite;
+}
+.class{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Roboto;
+font-style: Bold;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 6%;
+text-align: center;
+background-color: blue;
+color: white;
+}
+.css{
+    color: rgba(255, 255, 255, 0.6);
+
+font-family: Roboto;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 3%;
+text-align: left;
+background-color: black;
+color: gray;
+}
+.body{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Roboto;
+font-style: Bold;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 3%;
+text-align: left;
+text-transform: uppercase;
+background-color: black;
+color: white;
 }
