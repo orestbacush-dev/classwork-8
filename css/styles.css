@@ -9,7 +9,6 @@ height: 48px;
 padding: 0px;
 border: none;
 border-radius: 2px;
-background-color:white;
 color: blue;
 }
 .styles{
@@ -20,7 +19,6 @@ font-weight: 700;
 line-height: 31px;
 letter-spacing: 3%;
 text-align: left;
-background-color:white;
 color: blue;
 }
 .div{
@@ -31,22 +29,10 @@ font-weight: 700;
 line-height: 31px;
 letter-spacing: 3%;
 text-align: left;
-background-color: white;
 color: black;
 }
 .title{
- color: rgba(33, 33, 33, 1);
-
-font-family: Roboto;
-font-style: Medium;
-font-size: 14px;
-font-weight: 500;
-line-height: 16px;
-letter-spacing: 2%;
-text-align: left;
-}
-.title{
-color: rgba(33, 33, 33, 1);
+ color: rgb(156, 152, 152);
 
 font-family: Roboto;
 font-style: Medium;
@@ -68,35 +54,72 @@ color:gray ;
     background-color: white;
     color: gray;
 }
-.twitter{
+.button-title{
 width: 73px;
 height: 38px;
-background-color: blue;
-color: white;
+background-color:rgba(245, 244, 250, 1) ;
+color: rgba(33, 33, 33, 1) ;
+border: none;
+cursor: pointer;
+color: black;
 }
-.section{
+.button-title:hover{
+   color:rgba(255, 255, 255, 1);
+   background-color:rgba(33, 150, 243, 1);
+ }
+.button-text{
 width: 125px;
 height: 38px;
-background-color: white;
+border-radius: 4px;
+padding: 10px 24px;
+background-color: rgba(245, 244, 250, 1);
+color: rgba(33, 33, 33, 1);
+border: none;
+cursor: pointer;
 color: black;
 }
-.header{
+.button-text:hover{
+   color:rgba(255, 255, 255, 1);
+   background-color:rgba(33, 150, 243, 1);
+ }
+.button-style{
 width: 112px;
 height: 38px;
-background-color: white;
+background-color: rgba(245, 244, 250, 1);
+color: rgba(33, 33, 33, 1) ;
+border: none;
+cursor: pointer;
 color: black;
 }
-.main{
+.button-style:hover{
+   color:rgba(255, 255, 255, 1);
+   background-color:rgba(33, 150, 243, 1);
+}
+.button-design{
 width: 103px;
 height: 38px;
-background-color: white;
+background-color: rgba(245, 244, 250, 1);
+color:  rgba(33, 33, 33, 1) ;
+border: none;
+cursor: pointer;
 color: black;
 }
-.footer{
+.button-design:hover{
+   color:rgba(255, 255, 255, 1);
+   background-color:rgba(33, 150, 243, 1);
+}
+.button-chaos{
 width: 130px;
 height: 38px;
-background-color: white;
+background-color: rgba(245, 244, 250, 1) ;
+color: rgba(33, 33, 33, 1) ;
+border: none;
+cursor: pointer;
 color: black;
+}
+.button-chaos:hover{
+   color:rgba(255, 255, 255, 1);
+   background-color:rgba(33, 150, 243, 1);
 }
 .avatar{
 color: rgba(33, 33, 33, 1);
@@ -392,13 +415,11 @@ font-size: 16px;
 font-weight: 400;
 line-height: 20px;
 letter-spacing: 3%;
-text-align: left;
-background-color: black;
+text-align: left;;
 color: gray;
 }
 .body{
-    color: rgba(255, 255, 255, 1);
-
+color: rgba(255, 255, 255, 1);
 font-family: Roboto;
 font-style: Bold;
 font-size: 14px;
@@ -406,7 +427,54 @@ font-weight: 700;
 line-height: 16px;
 letter-spacing: 3%;
 text-align: left;
-text-transform: uppercase;
-background-color: black;
+text-transform: uppercase;;
 color: white;
 }
+.address{
+    background-color: black;
+}
+.ul,li{
+    list-style: none;
+}
+.header{
+    width: 1600px;
+height: 80px;
+background: rgba(255, 255, 255, 1);
+}
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;  
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.item{
+ flex-basis: calc((100% - 90px) / 4);
+  height: 294px;
+  font-size: 16px;
+  color: gray;
+}
+.footer-content{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.listcards{
+     display: flex;
+    flex-wrap: wrap;
+     gap: 30px;
+   
+    justify-content:space-evenly;
+    align-items: center;
+}
+.button-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
