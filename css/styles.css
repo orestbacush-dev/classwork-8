@@ -3,16 +3,32 @@
 *::after {
     box-sizing: border-box;   
 }
-.type{
-width: 78px;
-height: 48px;
-padding: 0px;
-border: none;
-border-radius: 2px;
-background-color:white;
-color: blue;
+a{
+    text-decoration: none;
 }
-.styles{
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background: rgba(255, 255, 255, 1);
+}
+.title{
+
+color: rgba(33, 33, 33, 1);
+font-family: Roboto;
+font-style: Medium;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 2%;
+text-align: left;
+cursor: pointer;
+}
+
+.logo-web{
+    
+
 font-family: Raleway;
 font-style: Bold;
 font-size: 26px;
@@ -20,22 +36,26 @@ font-weight: 700;
 line-height: 31px;
 letter-spacing: 3%;
 text-align: left;
-background-color:white;
-color: blue;
+color: rgba(33, 150, 243, 1);
 }
-.div{
-    font-family: Raleway;
+
+.logo-studio{
+
+font-family: Raleway;
+ width: 145px;
+height: 31px;
 font-style: Bold;
 font-size: 26px;
 font-weight: 700;
 line-height: 31px;
 letter-spacing: 3%;
 text-align: left;
-background-color: white;
-color: black;
+color: rgba(0, 0, 0, 1);
 }
+
 .title{
- color: rgba(33, 33, 33, 1);
+    
+ color: rgb(156, 152, 152);
 
 font-family: Roboto;
 font-style: Medium;
@@ -44,65 +64,95 @@ font-weight: 500;
 line-height: 16px;
 letter-spacing: 2%;
 text-align: left;
+cursor: pointer;
 }
-.title{
-color: rgba(33, 33, 33, 1);
 
-font-family: Roboto;
-font-style: Medium;
-font-size: 14px;
-font-weight: 500;
-line-height: 16px;
-letter-spacing: 2%;
-text-align: left;
+.contact-email{
+color: rgba(117, 117, 117, 1);
 }
-.ul{
-width: 161px;
-height: 16px;
-background-color: white;
-color:gray ;
+.contact-email:hover,.contact-phone:hover{
+    color: rgba(33, 150, 243, 1);
 }
-.svg{
-    width: 142px ;
-    height: 16px ;
-    background-color: white;
-    color: gray;
-}
-.twitter{
-width: 73px;
-height: 38px;
-background-color: blue;
-color: white;
-}
-.section{
-width: 125px;
-height: 38px;
-background-color: white;
-color: black;
-}
-.header{
-width: 112px;
-height: 38px;
-background-color: white;
-color: black;
+.contact-phone{
+  color: rgba(117, 117, 117, 1);   
 }
 .main{
+    padding-top: 94px;
+}
+.button-title{
+width: 73px;
+height: 38px;
+background-color:rgba(245, 244, 250, 1) ;
+color: rgba(33, 33, 33, 1) ;
+border: none;
+cursor: pointer;
+color: black;
+}
+.button-title:hover{
+   color:rgba(255, 255, 255, 1);
+   background-color:rgba(33, 150, 243, 1);
+ }
+.button-text{
+width: 125px;
+height: 38px;
+border-radius: 4px;
+padding: 10px 24px;
+background-color: rgba(245, 244, 250, 1);
+color: rgba(33, 33, 33, 1);
+border: none;
+cursor: pointer;
+color: black;
+}
+.button-text:hover{
+   color:rgba(255, 255, 255, 1);
+   background-color:rgba(33, 150, 243, 1);
+ }
+.button-style{
+width: 112px;
+height: 38px;
+background-color: rgba(245, 244, 250, 1);
+color: rgba(33, 33, 33, 1) ;
+border: none;
+cursor: pointer;
+color: black;
+}
+.button-style:hover{
+   color:rgba(255, 255, 255, 1);
+   background-color:rgba(33, 150, 243, 1);
+}
+.button-design{
 width: 103px;
 height: 38px;
-background-color: white;
+background-color: rgba(245, 244, 250, 1);
+color:  rgba(33, 33, 33, 1) ;
+border: none;
+cursor: pointer;
 color: black;
 }
-.footer{
+.button-design:hover{
+   color:rgba(255, 255, 255, 1);
+   background-color:rgba(33, 150, 243, 1);
+}
+.button-chaos{
 width: 130px;
 height: 38px;
-background-color: white;
+background-color: rgba(245, 244, 250, 1) ;
+color: rgba(33, 33, 33, 1) ;
+border: none;
+cursor: pointer;
 color: black;
 }
+.button-chaos:hover{
+   color:rgba(255, 255, 255, 1);
+   background-color:rgba(33, 150, 243, 1);
+}
 .avatar{
+    width: 322px;
+height: 36px;
 color: rgba(33, 33, 33, 1);
 
 font-family: Roboto;
-font-style: Bold;
+font-style:"bold";
 font-size: 18px;
 font-weight: 700;
 line-height: 36px;
@@ -110,6 +160,8 @@ letter-spacing: 6%;
 text-align: left;
 }
 .meta{
+width: 322px;
+height: 30px;
     color: rgba(117, 117, 117, 1);
 
 font-family: Roboto;
@@ -121,6 +173,8 @@ letter-spacing: 3%;
 text-align: left;
 }
 .for{
+    width: 322px;
+height: 36px;
     color: rgba(33, 33, 33, 1);
 
 font-family: Roboto;
@@ -132,6 +186,8 @@ letter-spacing: 6%;
 text-align: left;
 }
 .overlay{
+    width: 322px;
+height: 30px;
     color: rgba(117, 117, 117, 1);
 
 font-family: Roboto;
@@ -143,6 +199,8 @@ letter-spacing: 3%;
 text-align: left;
 }
 .rel{
+    width: 322px;
+height: 36px;
     color: rgba(33, 33, 33, 1);
 
 font-family: Roboto;
@@ -154,6 +212,8 @@ letter-spacing: 6%;
 text-align: left;
 }
 .vs{
+    width: 322px;
+height: 30px;
     color: rgba(117, 117, 117, 1);
 
 font-family: Roboto;
@@ -165,6 +225,8 @@ letter-spacing: 3%;
 text-align: left;
 }
 .cell{
+    width: 322px;
+height: 36px;
     color: rgba(33, 33, 33, 1);
 
 font-family: Roboto;
@@ -176,6 +238,8 @@ letter-spacing: 6%;
 text-align: left;
 }
 .instagram{
+    width: 322px;
+height: 30px;
     color: rgba(117, 117, 117, 1);
 
 font-family: Roboto;
@@ -187,6 +251,8 @@ letter-spacing: 3%;
 text-align: left;
 }
 .label{
+    width: 322px;
+height: 36px;
     color: rgba(33, 33, 33, 1);
 
 font-family: Roboto;
@@ -198,6 +264,8 @@ letter-spacing: 6%;
 text-align: left;
 }
 .stylesheet{
+    width: 322px;
+height: 30px;
     color: rgba(117, 117, 117, 1);
 
 font-family: Roboto;
@@ -209,6 +277,8 @@ letter-spacing: 3%;
 text-align: left;
 }
 .linkedin{
+    width: 322px;
+height: 36px;
     color: rgba(33, 33, 33, 1);
 
 font-family: Roboto;
@@ -220,6 +290,8 @@ letter-spacing: 6%;
 text-align: left;
 }
 .initial-scale{
+    width: 322px;
+height: 30px;
     color: rgba(117, 117, 117, 1);
 
 font-family: Roboto;
@@ -231,6 +303,8 @@ letter-spacing: 3%;
 text-align: left;
 }
 .list{
+    width: 322px;
+height: 36px;
     color: rgba(33, 33, 33, 1);
 
 font-family: Roboto;
@@ -242,6 +316,8 @@ letter-spacing: 6%;
 text-align: left;
 }
 .ul{
+    width: 322px;
+height: 30px;
     color: rgba(117, 117, 117, 1);
 
 font-family: Roboto;
@@ -253,6 +329,8 @@ letter-spacing: 3%;
 text-align: left;
 }
 .link{
+    width: 322px;
+height: 36px;
     color: rgba(33, 33, 33, 1);
 
 font-family: Roboto;
@@ -264,6 +342,8 @@ letter-spacing: 6%;
 text-align: left;
 }
 .en{
+    width: 322px;
+height: 30px;
     color: rgba(117, 117, 117, 1);
 
 font-family: Roboto;
@@ -275,10 +355,12 @@ letter-spacing: 3%;
 text-align: left;
 }
 .li{
+    width: 322px;
+height: 36px;
     color: rgba(33, 33, 33, 1);
 
 font-family: Roboto;
-font-style: Bold;
+font-style: 'Bold';
 font-size: 18px;
 font-weight: 700;
 line-height: 36px;
@@ -286,17 +368,19 @@ letter-spacing: 6%;
 text-align: left;
 }
 .width{
+    width: 322px;
+height: 30px;
     color: rgba(117, 117, 117, 1);
 
 font-family: Roboto;
-font-style: Regular;
+font-style: 'Regular';
 font-size: 16px;
 font-weight: 400;
 line-height: 30px;
 letter-spacing: 3%;
 text-align: left;
 }
-.nav{
+.footer-logo-web{
     font-family: Raleway;
 font-style: Bold;
 font-size: 26px;
@@ -307,7 +391,7 @@ text-align: left;
 background-color:black;
 color: blue;
 }
-.name{
+.footer-logo-studio{
     font-family: Raleway;
 font-style: Bold;
 font-size: 26px;
@@ -315,7 +399,7 @@ font-weight: 700;
 line-height: 31px;
 letter-spacing: 3%;
 text-align: left;
-background-color: black;
+background-color:black ;
 color: white;
 }
 .html{
@@ -330,6 +414,7 @@ letter-spacing: 3%;
 text-align: left;
 background-color: black;
 color: white;
+background: rgba(47, 48, 58, 1);
 }
 .has{
     color: rgba(255, 255, 255, 0.6);
@@ -343,6 +428,7 @@ letter-spacing: 3%;
 text-align: left;
 background-color: black;
 color: gray;
+background: rgba(47, 48, 58, 1);
 }
 .head{
     color: rgba(255, 255, 255, 0.6);
@@ -356,6 +442,7 @@ letter-spacing: 3%;
 text-align: left;
 background-color: black;
 color: gray;
+background: rgba(47, 48, 58, 1);
 }
 .device-width{
     color: rgba(255, 255, 255, 1);
@@ -370,7 +457,7 @@ text-align: left;
 text-transform: uppercase;
 color: antiquewhite;
 }
-.class{
+.subscribe-btn{
     color: rgba(255, 255, 255, 1);
 
 font-family: Roboto;
@@ -383,7 +470,7 @@ text-align: center;
 background-color: blue;
 color: white;
 }
-.css{
+.footer-link{
     color: rgba(255, 255, 255, 0.6);
 
 font-family: Roboto;
@@ -392,13 +479,11 @@ font-size: 16px;
 font-weight: 400;
 line-height: 20px;
 letter-spacing: 3%;
-text-align: left;
-background-color: black;
+text-align: left;;
 color: gray;
 }
-.body{
-    color: rgba(255, 255, 255, 1);
-
+.subscribe-title{
+color: rgba(255, 255, 255, 1);
 font-family: Roboto;
 font-style: Bold;
 font-size: 14px;
@@ -406,7 +491,94 @@ font-weight: 700;
 line-height: 16px;
 letter-spacing: 3%;
 text-align: left;
-text-transform: uppercase;
-background-color: black;
-color: white;
+text-transform: uppercase;;
+
 }
+.address{
+    background: rgba(47, 48, 58, 1);
+    height: 252px;
+}
+.ul,li{
+    list-style: none;
+}
+.header{
+background: rgba(255, 255, 255, 1);
+ border: 1px solid rgba(236, 236, 236, 1); 
+ padding: 25px 0px;
+}
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;  
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+   
+    background: rgba(255, 255, 255, 1);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 93px;
+}
+
+.footer-content{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    background: rgba(47, 48, 58, 1);
+}
+.listcards{
+     display: flex;  
+    align-items:center ; 
+    flex-wrap: wrap;  
+    gap: 30px; 
+}
+.listcards-item{ 
+  flex-basis: calc((100% - 60px) / 3);
+}
+.button-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 50px;
+    gap: 8px;
+}
+
+.nav-list{   
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-contacts{
+    display: flex;
+    gap: 30px;
+}
+.footer-logo-web{
+background: rgba(47, 48, 58, 1);
+}
+.footer-logo-studio{
+    background: rgba(47, 48, 58, 1);
+}
+
+.social-list{
+display: flex;
+    gap: 34px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center ;
+}
+.logo-link:hover,.title:hover{
+color: rgba(33, 150, 243, 1);
+}
+
+
+
+
+
